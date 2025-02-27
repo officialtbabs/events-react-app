@@ -1,0 +1,175 @@
+import {
+  KeyboardAvoidingView,
+  TouchableWithoutFeedback,
+  Keyboard,
+  ScrollView,
+} from 'react-native';
+import React, {FC, ReactNode} from 'react';
+import Box from './Box';
+import pallete from '../../constants/colors/pallete';
+import {StatusBar} from 'react-native';
+import {useAppSelector} from '../../constants/utils/hooks';
+import {isIos} from '../../constants/utils/utils';
+import {SafeAreaView} from 'react-native-safe-area-context';
+import {RefreshControl} from 'react-native-gesture-handler';
+
+interface MainLayoutProps {
+  children: ReactNode;
+  transparent?: boolean;
+  avoidKeyboard?: boolean;
+  lightBar?: boolean;
+  noTouchable?: boolean;
+  layoutHeader?: ReactNode;
+  refreshing: boolean;
+  onRefresh: () => void;
+  nav?: ReactNode;
+}
+
+const LayoutWithSafeAreaWithoutBgWithPullDownRefresh: FC<MainLayoutProps> = ({
+  children,
+  avoidKeyboard = true,
+  transparent = true,
+  noTouchable,
+  lightBar,
+  layoutHeader,
+  refreshing,
+  onRefresh,
+  nav,
+}) => {
+  const {darkMode} = useAppSelector(state => state.darkMode);
+  const globalStyles = useAppSelector(state => state.globalStyles.styles);
+
+  return (
+    <>
+      <Box flex={1} style={[globalStyles.bgCulrLayoutBg]}>
+        <SafeAreaView
+          style={[
+            globalStyles.flexOne,
+            transparent && globalStyles.bgTransparent,
+          ]}>
+          <StatusBar
+            translucent
+            backgroundColor={pallete.transparent}
+            barStyle={
+              lightBar
+                ? 'light-content'
+                : darkMode
+                ? 'light-content'
+                : 'dark-content'
+            }
+          />
+          {layoutHeader}
+
+          {nav && <Box style={[globalStyles.py1]}>{nav}</Box>}
+
+          {avoidKeyboard ? (
+            <KeyboardAvoidingView
+              style={[
+                globalStyles.flexOne,
+                transparent && globalStyles.bgTransparent,
+              ]}
+              behavior={isIos() ? 'padding' : 'height'}>
+              <Box flex={1} style={[transparent && globalStyles.bgTransparent]}>
+                {noTouchable ? (
+                  <ScrollView
+                    showsVerticalScrollIndicator={false}
+                    bounces={true}
+                    contentContainerStyle={[globalStyles.flexGrow]}
+                    refreshControl={
+                      <RefreshControl
+                        colors={[pallete.culrMainVermilion]}
+                        tintColor={pallete.culrMainVermilion}
+                        refreshing={refreshing}
+                        onRefresh={onRefresh}
+                      />
+                    }
+                    style={[
+                      globalStyles.flexOne,
+                      transparent && globalStyles.bgTransparent,
+                    ]}>
+                    {children}
+                  </ScrollView>
+                ) : (
+                  <TouchableWithoutFeedback
+                    accessible={false}
+                    onPress={Keyboard.dismiss}
+                    style={[globalStyles.flexOne]}>
+                    <ScrollView
+                      showsVerticalScrollIndicator={false}
+                      bounces={true}
+                      contentContainerStyle={[globalStyles.flexGrow]}
+                      refreshControl={
+                        <RefreshControl
+                          colors={[pallete.culrMainVermilion]}
+                          tintColor={pallete.culrMainVermilion}
+                          refreshing={refreshing}
+                          onRefresh={onRefresh}
+                        />
+                      }
+                      style={[
+                        globalStyles.flexOne,
+                        transparent && globalStyles.bgTransparent,
+                      ]}>
+                      {children}
+                    </ScrollView>
+                  </TouchableWithoutFeedback>
+                )}
+              </Box>
+            </KeyboardAvoidingView>
+          ) : (
+            <Box flex={1} style={[globalStyles.bgCulrLayoutBg]}>
+              <Box flex={1} style={[transparent && globalStyles.bgTransparent]}>
+                {noTouchable ? (
+                  <ScrollView
+                    showsVerticalScrollIndicator={false}
+                    bounces={true}
+                    contentContainerStyle={[globalStyles.flexGrow]}
+                    refreshControl={
+                      <RefreshControl
+                        colors={[pallete.culrMainVermilion]}
+                        tintColor={pallete.culrMainVermilion}
+                        refreshing={refreshing}
+                        onRefresh={onRefresh}
+                      />
+                    }
+                    style={[
+                      globalStyles.flexOne,
+                      transparent && globalStyles.bgTransparent,
+                    ]}>
+                    {children}
+                  </ScrollView>
+                ) : (
+                  <TouchableWithoutFeedback
+                    accessible={false}
+                    onPress={Keyboard.dismiss}
+                    style={[globalStyles.flexOne]}>
+                    <ScrollView
+                      showsVerticalScrollIndicator={false}
+                      bounces={true}
+                      contentContainerStyle={[globalStyles.flexGrow]}
+                      refreshControl={
+                        <RefreshControl
+                          colors={[pallete.culrMainVermilion]}
+                          tintColor={pallete.culrMainVermilion}
+                          refreshing={refreshing}
+                          onRefresh={onRefresh}
+                        />
+                      }
+                      style={[
+                        globalStyles.flexOne,
+                        transparent && globalStyles.bgTransparent,
+                      ]}>
+                      {children}
+                    </ScrollView>
+                  </TouchableWithoutFeedback>
+                )}
+              </Box>
+            </Box>
+          )}
+        </SafeAreaView>
+      </Box>
+    </>
+  );
+};
+
+export default LayoutWithSafeAreaWithoutBgWithPullDownRefresh;

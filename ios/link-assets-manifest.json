@@ -1,0 +1,77 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/NeulisAlt-Black.ttf",
+      "sha1": "1cedb4628318f9a5e978dccfc5d8967b8b025272"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-BlackItalic.ttf",
+      "sha1": "2f79e334d66961794a40a659fb2fabe47a693561"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Bold.ttf",
+      "sha1": "b64594aa1b4c8d6ef5fbee024c4da6b18c5ee562"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-BoldItalic.ttf",
+      "sha1": "6a5f90092b4ef9b07151375ac286cc0736fc7601"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-ExtraBold.ttf",
+      "sha1": "fb425d9f0cb8700c11b6f60bf5b5051cd2044426"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-ExtraBoldItalic.ttf",
+      "sha1": "ab929aef92986f81f7f6bc7e59cbd67ac72e533a"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-ExtraLight.ttf",
+      "sha1": "2fb14eefecf291ce82d8532e50f20bcc048bc204"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-ExtraLightItalic.ttf",
+      "sha1": "3facd139d805a99fca0c74b742f1568bf01807a1"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Italic.ttf",
+      "sha1": "f826aeb46ad59525c4bbb56e16c3e7714e7b75f1"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Light.ttf",
+      "sha1": "b28daf3a69a049795499845ee419659cf07edfde"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-LightItalic.ttf",
+      "sha1": "2f2977421fc661e947f86c9bfbdbb86522ccd9c1"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Medium.ttf",
+      "sha1": "890b27f04ca6263bba9af58eefa4b4524cb1b0fd"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-MediumItalic.ttf",
+      "sha1": "e475212d4739a7400889c9c1f693d241cad67784"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Regular.ttf",
+      "sha1": "b40ffb5bcbcae19aa8029d3796f8b116fd1ae6a2"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-SemiBold.ttf",
+      "sha1": "33ade83eb5a5b7645584d9c18d764599ac2c9e6d"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-SemiBoldItalic.ttf",
+      "sha1": "2d1bfb2cf36d09a9ed3955d28f04c0963da144d2"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-Thin.ttf",
+      "sha1": "27a26e6529e9475f4567a488947a0787ca763e54"
+    },
+    {
+      "path": "src/assets/fonts/NeulisAlt-ThinItalic.ttf",
+      "sha1": "719adb088f44d3970e261a3ecd3f02a515e23f84"
+    }
+  ]
+}

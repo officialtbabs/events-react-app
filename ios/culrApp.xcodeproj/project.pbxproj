@@ -10,21 +10,61 @@
 		08F9007084ABAC6D4A4E529B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		0C80B921A6F3F58F76C31292 /* libPods-culrApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-culrApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2E58DE5C100A4B11BA4695B3 /* NeulisAlt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAEB7AED3EA849678D5A5061 /* NeulisAlt-BlackItalic.ttf */; };
+		3BC951A6A2FE4B898A1BF878 /* NeulisAlt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71A095021ED4DE0A80C38CB /* NeulisAlt-ExtraLight.ttf */; };
+		3CD9B1B0191F48EAB7AA16E1 /* NeulisAlt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E176152205345338A59EF69 /* NeulisAlt-Thin.ttf */; };
+		3E506C13986242789733DAD2 /* NeulisAlt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE444F26E42C4A57A3EE024F /* NeulisAlt-SemiBoldItalic.ttf */; };
+		459C5278D7954AADAC92AB05 /* NeulisAlt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40073149F55D461A81A5EC0A /* NeulisAlt-Italic.ttf */; };
+		4A4E1DCE7D5D49F88ECBA8E3 /* NeulisAlt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81E5189A7085471089F38DD3 /* NeulisAlt-SemiBold.ttf */; };
+		4EAB8711FFFD4B10823BB05F /* NeulisAlt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AEEB8256760409180ABFAC5 /* NeulisAlt-ThinItalic.ttf */; };
+		551D27217BA640F9A343E508 /* NeulisAlt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9E3F7A5F92B4BE6BB78BB9F /* NeulisAlt-Medium.ttf */; };
+		5E75495BA1AD484DA26C7B72 /* NeulisAlt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0459EBABC9C643F38ADE3CE5 /* NeulisAlt-MediumItalic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84A9519431024429AAA33F12 /* NeulisAlt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81F9E9DC184D49E698C3510E /* NeulisAlt-ExtraLightItalic.ttf */; };
+		87439BEAB488485CB27C48E1 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A075ADDC9CFF4C75B0BFE4A3 /* BootSplash.storyboard */; };
+		87EBF47D4604410597F3CBE0 /* NeulisAlt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0792C12384674F04814F7DBA /* NeulisAlt-Light.ttf */; };
+		9FF087044AEA4AFBA993BC84 /* NeulisAlt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8285ED4B23E640759DAD89B5 /* NeulisAlt-Regular.ttf */; };
+		CD2AAC6024CA4F5691B47D72 /* NeulisAlt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B5ABEAA8424CD48532A226 /* NeulisAlt-ExtraBoldItalic.ttf */; };
+		D06148E3C19449E9B04A9368 /* NeulisAlt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5277BBDFA6274BDDA0669B34 /* NeulisAlt-ExtraBold.ttf */; };
+		DAD80516839F4D2AA39CEC98 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED7D43C80704FFD99CB46B2 /* Colors.xcassets */; };
+		DC4B4A62C18E4286B170B346 /* NeulisAlt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC2E15DEBDEC4099B91719A7 /* NeulisAlt-Bold.ttf */; };
+		E30C6FB5C65A4E4E8A6E8A95 /* NeulisAlt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 195E3958E7E44244A5C6A271 /* NeulisAlt-Black.ttf */; };
+		E5392484F89D4AF5AB9A26F2 /* NeulisAlt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D2391873BCF46D4B81BE9EE /* NeulisAlt-BoldItalic.ttf */; };
+		F5A91AD94EF147A5A6E3C61A /* NeulisAlt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55E8E1C5F1154569B805CB2E /* NeulisAlt-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0459EBABC9C643F38ADE3CE5 /* NeulisAlt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-MediumItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0792C12384674F04814F7DBA /* NeulisAlt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Light.ttf"; path = "../src/assets/fonts/NeulisAlt-Light.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* culrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = culrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = culrApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = culrApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = culrApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		195E3958E7E44244A5C6A271 /* NeulisAlt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Black.ttf"; path = "../src/assets/fonts/NeulisAlt-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-culrApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-culrApp.debug.xcconfig"; path = "Target Support Files/Pods-culrApp/Pods-culrApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3E176152205345338A59EF69 /* NeulisAlt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Thin.ttf"; path = "../src/assets/fonts/NeulisAlt-Thin.ttf"; sourceTree = "<group>"; };
+		40073149F55D461A81A5EC0A /* NeulisAlt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Italic.ttf"; path = "../src/assets/fonts/NeulisAlt-Italic.ttf"; sourceTree = "<group>"; };
+		4D2391873BCF46D4B81BE9EE /* NeulisAlt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-BoldItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5277BBDFA6274BDDA0669B34 /* NeulisAlt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-ExtraBold.ttf"; path = "../src/assets/fonts/NeulisAlt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		55E8E1C5F1154569B805CB2E /* NeulisAlt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-LightItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-LightItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-culrApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-culrApp.release.xcconfig"; path = "Target Support Files/Pods-culrApp/Pods-culrApp.release.xcconfig"; sourceTree = "<group>"; };
+		5AEEB8256760409180ABFAC5 /* NeulisAlt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-ThinItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-ThinItalic.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-culrApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-culrApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = culrApp/AppDelegate.swift; sourceTree = "<group>"; };
+		7ED7D43C80704FFD99CB46B2 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = culrApp/Colors.xcassets; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = culrApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81E5189A7085471089F38DD3 /* NeulisAlt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-SemiBold.ttf"; path = "../src/assets/fonts/NeulisAlt-SemiBold.ttf"; sourceTree = "<group>"; };
+		81F9E9DC184D49E698C3510E /* NeulisAlt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-ExtraLightItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8285ED4B23E640759DAD89B5 /* NeulisAlt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Regular.ttf"; path = "../src/assets/fonts/NeulisAlt-Regular.ttf"; sourceTree = "<group>"; };
+		A075ADDC9CFF4C75B0BFE4A3 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = culrApp/BootSplash.storyboard; sourceTree = "<group>"; };
+		B8B5ABEAA8424CD48532A226 /* NeulisAlt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D9E3F7A5F92B4BE6BB78BB9F /* NeulisAlt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Medium.ttf"; path = "../src/assets/fonts/NeulisAlt-Medium.ttf"; sourceTree = "<group>"; };
+		DC2E15DEBDEC4099B91719A7 /* NeulisAlt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-Bold.ttf"; path = "../src/assets/fonts/NeulisAlt-Bold.ttf"; sourceTree = "<group>"; };
+		E71A095021ED4DE0A80C38CB /* NeulisAlt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-ExtraLight.ttf"; path = "../src/assets/fonts/NeulisAlt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		EAEB7AED3EA849678D5A5061 /* NeulisAlt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-BlackItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-BlackItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE444F26E42C4A57A3EE024F /* NeulisAlt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeulisAlt-SemiBoldItalic.ttf"; path = "../src/assets/fonts/NeulisAlt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				A075ADDC9CFF4C75B0BFE4A3 /* BootSplash.storyboard */,
+				7ED7D43C80704FFD99CB46B2 /* Colors.xcassets */,
 			);
 			name = culrApp;
 			sourceTree = "<group>";
@@ -75,6 +117,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F3B9484FF2CE4FBEBC1876DD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +139,32 @@
 				5709B34CF0A7D63546082F79 /* Pods-culrApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3B9484FF2CE4FBEBC1876DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				195E3958E7E44244A5C6A271 /* NeulisAlt-Black.ttf */,
+				EAEB7AED3EA849678D5A5061 /* NeulisAlt-BlackItalic.ttf */,
+				DC2E15DEBDEC4099B91719A7 /* NeulisAlt-Bold.ttf */,
+				4D2391873BCF46D4B81BE9EE /* NeulisAlt-BoldItalic.ttf */,
+				5277BBDFA6274BDDA0669B34 /* NeulisAlt-ExtraBold.ttf */,
+				B8B5ABEAA8424CD48532A226 /* NeulisAlt-ExtraBoldItalic.ttf */,
+				E71A095021ED4DE0A80C38CB /* NeulisAlt-ExtraLight.ttf */,
+				81F9E9DC184D49E698C3510E /* NeulisAlt-ExtraLightItalic.ttf */,
+				40073149F55D461A81A5EC0A /* NeulisAlt-Italic.ttf */,
+				0792C12384674F04814F7DBA /* NeulisAlt-Light.ttf */,
+				55E8E1C5F1154569B805CB2E /* NeulisAlt-LightItalic.ttf */,
+				D9E3F7A5F92B4BE6BB78BB9F /* NeulisAlt-Medium.ttf */,
+				0459EBABC9C643F38ADE3CE5 /* NeulisAlt-MediumItalic.ttf */,
+				8285ED4B23E640759DAD89B5 /* NeulisAlt-Regular.ttf */,
+				81E5189A7085471089F38DD3 /* NeulisAlt-SemiBold.ttf */,
+				EE444F26E42C4A57A3EE024F /* NeulisAlt-SemiBoldItalic.ttf */,
+				3E176152205345338A59EF69 /* NeulisAlt-Thin.ttf */,
+				5AEEB8256760409180ABFAC5 /* NeulisAlt-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +230,26 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				08F9007084ABAC6D4A4E529B /* PrivacyInfo.xcprivacy in Resources */,
+				87439BEAB488485CB27C48E1 /* BootSplash.storyboard in Resources */,
+				DAD80516839F4D2AA39CEC98 /* Colors.xcassets in Resources */,
+				E30C6FB5C65A4E4E8A6E8A95 /* NeulisAlt-Black.ttf in Resources */,
+				2E58DE5C100A4B11BA4695B3 /* NeulisAlt-BlackItalic.ttf in Resources */,
+				DC4B4A62C18E4286B170B346 /* NeulisAlt-Bold.ttf in Resources */,
+				E5392484F89D4AF5AB9A26F2 /* NeulisAlt-BoldItalic.ttf in Resources */,
+				D06148E3C19449E9B04A9368 /* NeulisAlt-ExtraBold.ttf in Resources */,
+				CD2AAC6024CA4F5691B47D72 /* NeulisAlt-ExtraBoldItalic.ttf in Resources */,
+				3BC951A6A2FE4B898A1BF878 /* NeulisAlt-ExtraLight.ttf in Resources */,
+				84A9519431024429AAA33F12 /* NeulisAlt-ExtraLightItalic.ttf in Resources */,
+				459C5278D7954AADAC92AB05 /* NeulisAlt-Italic.ttf in Resources */,
+				87EBF47D4604410597F3CBE0 /* NeulisAlt-Light.ttf in Resources */,
+				F5A91AD94EF147A5A6E3C61A /* NeulisAlt-LightItalic.ttf in Resources */,
+				551D27217BA640F9A343E508 /* NeulisAlt-Medium.ttf in Resources */,
+				5E75495BA1AD484DA26C7B72 /* NeulisAlt-MediumItalic.ttf in Resources */,
+				9FF087044AEA4AFBA993BC84 /* NeulisAlt-Regular.ttf in Resources */,
+				4A4E1DCE7D5D49F88ECBA8E3 /* NeulisAlt-SemiBold.ttf in Resources */,
+				3E506C13986242789733DAD2 /* NeulisAlt-SemiBoldItalic.ttf in Resources */,
+				3CD9B1B0191F48EAB7AA16E1 /* NeulisAlt-Thin.ttf in Resources */,
+				4EAB8711FFFD4B10823BB05F /* NeulisAlt-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
